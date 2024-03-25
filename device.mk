@@ -15,12 +15,3 @@ TARGET_RECOVERY_DEVICE_MODULES += \
 RECOVERY_LIBRARY_SOURCE_FILES += \
 	$(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.boot@1.2.so
 	
-TARGET_RECOVERY_DEVICE_MODULES += \
-	vendor.display.config@1.0 \
-	vendor.display.config@2.0 \
-	libdisplayconfig.qti 
-
-RECOVERY_LIBRARY_SOURCE_FILES += \
-$(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/vendor.display.config@1.0.so \
-$(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/vendor.display.config@2.0.so \
-$(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libdisplayconfig.qti.so
