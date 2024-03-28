@@ -13,6 +13,6 @@ TARGET_RECOVERY_DEVICE_MODULES += \
 	android.hardware.boot@1.2
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-	$(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.boot@1.2.so
+	$(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.boot@1.2.so \
         $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/vendor.oplus.hardware.touch@1.0.so
 	
